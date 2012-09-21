@@ -637,6 +637,7 @@ $.TokenList = function (input, url_or_data, settings) {
 
         // Clear input box
         input_box.val("");
+        focus_with_timeout(input_box);
 
         // Don't show the help dropdown, they've got the idea
         hide_dropdown();
