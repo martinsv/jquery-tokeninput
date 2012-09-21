@@ -850,6 +850,8 @@ $.TokenList = function (input, url_or_data, settings) {
             if($(input).data("settings").noResultsText) {
                 dropdown.html("<p>" + escapeHTML($(input).data("settings").noResultsText) + "</p>");
                 show_dropdown();
+            } else {
+                hide_dropdown();
             }
         }
     }
